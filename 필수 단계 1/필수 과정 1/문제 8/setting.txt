@@ -1,0 +1,7 @@
+Operating System=true
+OS Version=true
+CPU Type=false
+CPU Cores=false
+Memory Size=false
+Current CPU Usage=true
+Current Memory Usage=false

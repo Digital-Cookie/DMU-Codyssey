@@ -7,7 +7,7 @@ except:
     print('Error in reading file.')
 else:
     log = [i.strip() for i in log_file[1:]]
-    log.sort(key=lambda k: k.strip().split(',')[0], reverse=True)
+    log.sort(key = lambda k: k.strip().split(',')[0], reverse = True)
 
     print(log_file[0].strip())
     for i in log:
